@@ -283,3 +283,36 @@
 .form label{
   text-align: start;
 }
+.scroll-text{
+  display: flex;
+  color: white;
+  justify-content: center;
+}
+#icon{
+  width: 6%;
+  color: white;
+}
+.reviews{
+  background-color: black;
+  height: 100vh;
+}
+.reviews h1,.fa-quote-left{
+  margin-left: 420px;
+}
+.reviews img{
+  margin-left: 620px;
+  width: 20%;
+  margin-top: 40px;
+}
+.reviews h3,p{
+  text-align: center;
+  color: white;
+}
+.fa-quote-left{
+  color: orangered;
+}
+.fa-quote-right{
+  color: orangered;
+  float: right;
+  margin-right: 430px;
+}
