@@ -1,0 +1,212 @@
+.homeimages{
+    width: 100%;
+    height: 100vh;
+    animation-name: zoom;
+    background-image: url(Images/first-image.jpg);
+    animation-duration: 12s;
+    background-repeat: none;
+    content: "hello";
+  }
+  
+  @keyframes zoom{
+    0%   {background-image: url(Images/second.jpg);}
+    25%  {background-image: url(Images/third.jpg);}
+    50%  {background-image: url(Images/fourth.jpeg);}
+    100% {background-image: url(Images/fifth.jpeg);}
+  }
+  .menu-branches{
+    display: flex;
+    justify-content: space-around;
+  }
+  .menu-branches a{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+  }
+  .menu-branches h1{
+    color: white;
+    font-size: 50px;
+  }
+  .menu-branches h3{
+    color: orangered;
+    font-size: 33px;
+  }
+  .firstbranch{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(Images/first-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 57vh;
+    position: relative;
+    width: 90%;
+    padding-left: 370px;
+    padding-top: 350px;
+  }
+  .secondbranch{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(Images/secondbranch.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 57vh;
+    position: relative;
+    width: 90%;
+    padding-left: 370px;
+    padding-top: 350px;
+  }
+.logo{
+    overflow: visible;
+    position:absolute;
+    width: 90%;
+}
+.image-heading{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(Images/firstkitisiru.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 89.5vh;
+  position: relative;
+  width: 50%;
+  text-align: center;
+  padding-top: 90px;
+}
+.image-heading h2{
+    color: white;
+}
+.image-heading h1{
+     color: orangered;
+}
+.image-heading img{
+  width: 30%;
+  margin-bottom: 80px;
+}
+.kitisurubranch{
+  display: flex;
+}
+.menu-types{
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+}
+.menu-options{
+  background-color: black;
+  padding-left: 20px;
+  padding-right: 10px;
+  overflow: scroll;
+  height: 102vh;
+}
+.menu-types a{
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+.breakfast{
+ display: flex;
+ justify-content: space-between;
+}
+.food{
+  display: flex;
+  justify-content: space-between;
+}
+.salads{
+  display: flex;
+  justify-content: space-around;
+}
+.icon-image img{
+  width: 20%;
+}
+.drinks{
+  display: flex;
+  justify-content: space-between;
+}
+.food-options{
+  color: white;
+  background-color: black;
+}
+.food-options h1,h3{
+  color: orangered;
+}
+.accra{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(Images/accra.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 62.3vh;
+  position: relative;
+  width: 90%;
+  padding-top: 350px;
+}
+.nairobi{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(Images/nairobi.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  position: relative;
+  width: 90%;
+  padding-top: 200px;
+}
+.nairobi img{
+  width: 30%;
+}
+.zanzibar{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(Images/zanzibar.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 62.3vh;
+  position: relative;
+  width: 90%;
+  padding-top: 350px;
+}
+.events{
+  display: flex;
+  text-align: center;
+}
+.events h5{
+  color: rgb(228, 191, 176);
+}
+.events h4,h1{
+  color: white;
+}
+.events p{
+  color: rgb(197, 194, 194);
+}
+.live{
+  display: flex;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url(Images/livebackground.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+}
+.icon-text{
+  width: 50%;
+  text-align: center;
+  font-size: 170%;
+  padding-top: 190px;
+  position: fixed;
+}
+.icon-text img{
+  width: 30%;
+}
+.icon-text h2{
+  color: white;
+}
+.icon-text h1{
+  color: orangered;
+}
+.live-posters{
+  display: flex;
+  gap: 30px;
+ margin-left: 770px;
+}
+.headings{
+  padding-top: 180px;
+}
+.headings h1{
+  font-size: 190%;
+}
+.headings h4{
+  color: orangered;
+}
