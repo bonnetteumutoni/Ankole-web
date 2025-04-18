@@ -1,0 +1,243 @@
+.image-heading{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(Images/menu.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  width: 50%;
+  text-align: center;
+  padding-top: 90px;
+}
+.image-heading h2{
+    color: white;
+}
+.image-heading h1{
+     color: orangered;
+}
+.image-heading img{
+  width: 30%;
+  margin-bottom: 80px;
+}
+.kitisurubranch{
+  display: flex;
+}
+.menu-types{
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+}
+.menu-options{
+  background-color: black;
+  padding-left: 20px;
+  padding-right: 1px;
+  overflow: scroll;
+  height: 112vh;
+  width: 50%;
+}
+.menu-types a{
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+.breakfast{
+ display: flex;
+ justify-content: space-between;
+}
+.food{
+  display: flex;
+  justify-content: space-between;
+}
+.salads{
+  display: flex;
+  gap: 100px;
+}
+.icon-image img{
+  width: 20%;
+}
+.drinks{
+  display: flex;
+  justify-content: space-between;
+}
+.food-options{
+  color: white;
+  background-color: black;
+}
+.food-options h1,h3{
+  color: orangered;
+}
+.kitisuru-menu .navigation{
+  left: 5px;
+  width: 45%;
+}
+.kitisuru-menu .navbar ul li a {
+  text-decoration: none;
+  color: white; 
+  font-size: 16px;
+  font-weight: bold;
+}
+.navbar {
+  display: flex;
+  padding: 1px 0;
+  margin-left: 10px;
+}
+.navbar i{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.navbar ul{
+  display: flex;
+}
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white; 
+  font-size: 20px;
+  font-weight: bold;
+}
+.navigation{
+  padding: 10px;
+  color: white;
+  background-color: rgb(8, 8, 8);
+  border: 2px solid;
+  width: 53%;
+  border-radius: 40px;
+  overflow: visible;
+  position: absolute;
+  top: 740px;
+left: 350px;
+border: 3px white;
+}
+#reservation{
+  background-color: rgb(83, 81, 81);
+  padding-top: 10px;
+  padding-bottom: 10px;
+ border-radius: 40px;}
+
+ body{
+  margin: 0;
+ }
+ .dropbtn {
+  background-color: #050505;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropup {
+  position: relative;
+  display: inline-block;
+}
+
+.dropup-content {
+  display: none;
+  position: absolute;
+  background-color: #0a0a0a;
+  min-width: 160px;
+  bottom: 50px;
+  z-index: 1;
+}
+
+.dropup-content a {
+  color: rgb(245, 240, 240);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropup-content a:hover {background-color: #ccc}
+
+.dropup:hover .dropup-content {
+  display: block;
+}
+
+.dropup:hover .dropbtn {
+  background-color: #585b5e;
+}
+.navbar button{
+  background-color:none;
+  color: rgb(252, 251, 251);
+  border-radius: 40px;
+  border: none;
+ }
+ .navbar .fa-clock{
+  padding: 1px;
+ } .icon-text-image{
+  display: flex;
+ }
+ .icon-text-image{
+  display: flex;
+ }
+ @media screen and (max-width: 600px){
+  .menu-options{
+    background-color: black;
+    padding-left: 20px;
+    padding-right: 1px;
+    height: 112vh;
+    width: 100%;
+  }
+  .kitisuru-menu .navigation{
+    left: 1px;
+    width: 99%;
+    position: fixed;
+  }
+  .navbar {
+    display: flex;
+    padding: 1px 0;
+    margin-left: 1px;
+  }
+  .navbar i{
+    margin-top: 2px;
+    margin-left: 2px;
+  }
+  .navbar ul{
+    display: flex;
+  }
+  .navbar ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .navbar ul li {
+    margin: 0 3px;
+  }
+  .kitisuru-menu .navbar ul li a {
+    text-decoration: none;
+    color: white; 
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .kitisurubranch{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .image-heading{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(Images/menu.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding-top: 90px;
+  }
+  #reservation{
+    background-color:rgb(8, 8, 8);
+    padding-top: 1px;
+    padding-bottom: 1px;
+   border-radius: 40px;}
+
+   .navbar .fa-clock{
+    padding-top: 13px;
+ }
+ }

@@ -1,0 +1,164 @@
+.accra{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(Images/accra.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 62.3vh;
+    position: relative;
+    width: 90%;
+    padding-top: 350px;
+  }
+  .nairobi{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(Images/nairobi.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    position: relative;
+    width: 90%;
+    padding-top: 200px;
+  }
+  .nairobi img{
+    width: 30%;
+  }
+  .zanzibar{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(Images/zanzibar.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 62.3vh;
+    position: relative;
+    width: 90%;
+    padding-top: 350px;
+  }
+  .events{
+    display: flex;
+    text-align: center;
+  }
+  .events h5{
+    color: rgb(228, 191, 176);
+  }
+  .events h4,h1{
+    color: white;
+  }
+  .events p{
+    color: rgb(197, 194, 194);
+  }
+  .navbar {
+    display: flex;
+    padding: 1px 0;
+    margin-left: 30px;
+  }
+  .navbar i{
+    margin-top: 2px;
+    margin-left: 20px;
+  }
+  .navbar ul{
+    display: flex;
+  }
+  .navbar ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .navbar ul li {
+    margin: 0 15px;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: white; 
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .navigation{
+    padding: 10px;
+    color: white;
+    background-color: rgb(8, 8, 8);
+    border: 2px solid;
+    width: 53%;
+    border-radius: 40px;
+    overflow: visible;
+    position: absolute;
+    top: 740px;
+  left: 350px;
+  border: 3px white;
+  }
+  body{
+    margin: 0;
+  }
+  .dropbtn {
+    background-color: #050505;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropup {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropup-content {
+    display: none;
+    position: absolute;
+    background-color: #0a0a0a;
+    min-width: 160px;
+    bottom: 50px;
+    z-index: 1;
+  }
+  
+  .dropup-content a {
+    color: rgb(245, 240, 240);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropup-content a:hover {background-color: #ccc}
+  
+  .dropup:hover .dropup-content {
+    display: block;
+  }
+  
+  .dropup:hover .dropbtn {
+    background-color: #585b5e;
+  }
+  .navbar button{
+    background-color:none;
+    color: rgb(252, 251, 251);
+    border-radius: 40px;border: none;
+  
+   }
+   .navbar .fa-clock{
+    padding: 20px;
+   }
+   #reservation{
+    background-color: rgb(83, 81, 81);
+    padding-top: 10px;
+    padding-bottom: 10px;
+   border-radius: 40px;}
+   @media screen and (max-width: 600px){
+    .events{
+        display: flex;
+        text-align: center;
+        flex-wrap: wrap;
+      }
+      .accra{
+        width: 100%;
+      }
+      .nairobi{
+        width: 100%;
+      }
+      .nairobi img{
+        width: 30%;
+      }
+      .zanzibar{
+        width: 100%;
+      }
+      .events .navigation{
+        top: 640px;
+        position: fixed;
+      }
+   }

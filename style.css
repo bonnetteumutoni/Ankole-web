@@ -11,45 +11,7 @@
     margin: 0 auto;
     padding: 0;
   }
-  .menu-branches{
-    display: flex;
-    justify-content: space-around;
-  }
-  .menu-branches a{
-    text-decoration: none;
-    color: white;
-    font-size: 19px;
-  }
-  .menu-branches h1{
-    color: white;
-    font-size: 50px;
-  }
-  .menu-branches h3{
-    color: orangered;
-    font-size: 33px;
-  }
-  .firstbranch{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(Images/first-image.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 60vh;
-    position: relative;
-    width: 90%;
-    padding-left: 370px;
-    padding-top: 350px;
-  }
-  .secondbranch{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(Images/secondbranch.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 60vh;
-    position: relative;
-    width: 90%;
-    padding-left: 370px;
-    padding-top: 350px;
-  }
+
   .menu-logo{
     overflow: visible;
     margin-left: 580px;
@@ -59,278 +21,6 @@
     overflow: visible;
     position:absolute;
     width: 90%;
-}
-.image-heading{
-  background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(Images/menu.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  position: relative;
-  width: 50%;
-  text-align: center;
-  padding-top: 90px;
-}
-.image-heading h2{
-    color: white;
-}
-.image-heading h1{
-     color: orangered;
-}
-.image-heading img{
-  width: 30%;
-  margin-bottom: 80px;
-}
-.kitisurubranch{
-  display: flex;
-}
-.menu-types{
-  display: flex;
-  justify-content: space-around;
-  background-color: black;
-}
-.menu-options{
-  background-color: black;
-  padding-left: 20px;
-  padding-right: 1px;
-  overflow: scroll;
-  height: 112vh;
-}
-.menu-types a{
-  text-decoration: none;
-  font-size: 20px;
-  color: white;
-}
-.breakfast{
- display: flex;
- justify-content: space-between;
-}
-.food{
-  display: flex;
-  justify-content: space-between;
-}
-.salads{
-  display: flex;
-  gap: 100px;
-}
-.icon-image img{
-  width: 20%;
-}
-.drinks{
-  display: flex;
-  justify-content: space-between;
-}
-.food-options{
-  color: white;
-  background-color: black;
-}
-.food-options h1,h3{
-  color: orangered;
-}
-.accra{
-  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(Images/accra.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 62.3vh;
-  position: relative;
-  width: 90%;
-  padding-top: 350px;
-}
-.nairobi{
-  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(Images/nairobi.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 80vh;
-  position: relative;
-  width: 90%;
-  padding-top: 200px;
-}
-.nairobi img{
-  width: 30%;
-}
-.zanzibar{
-  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(Images/zanzibar.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 62.3vh;
-  position: relative;
-  width: 90%;
-  padding-top: 350px;
-}
-.events{
-  display: flex;
-  text-align: center;
-}
-.events h5{
-  color: rgb(228, 191, 176);
-}
-.events h4,h1{
-  color: white;
-}
-.events p{
-  color: rgb(197, 194, 194);
-}
-.live{
-  display: flex;
-  background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(Images/liveback.avif);
-  background-position: center;
-  background-size: cover;
-  background-repeat: repeat;
-  position: relative;
-  width: 100%;
-}
-.icon-text{
-  width: 50%;
-  text-align: center;
-  font-size: 170%;
-  padding-top: 190px;
-  position: fixed;
-}
-.icon-text img{
-  width: 30%;
-}
-.icon-text h2{
-  color: white;
-}
-.icon-text h1{
-  color: orangered;
-}
-.live-posters{
-  display: flex;
-  gap: 30px;
- margin-left: 770px;
-}
-.headings{
-  padding-top: 180px;
-}
-.headings h1{
-  font-size: 190%;
-}
-.headings h4{
-  color: orangered;
-}
-.contacts{
-  background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(Images/contacts.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
-  width: 100%;
-  height: 100vh;
-}
-.contact-details{
-  display: flex;
-  justify-content: center;
-  gap: 50px;
-  margin-top: 90px;
-}
-.contact-details h2,h4{
-  color: white;
-}
-.contacts img{
-  width: 20%;
-  margin-left: 600px;
-  margin-top: 30px;
-}
-.kitisuru-address{
-  border: 2px solid white;
-  padding-left: 20px;
-  padding-right: 10px;
-  height: 23vh;
-}
-.Kilimani-address{
-  border: 2px solid white;
-  padding-left: 20px;
-  padding-right: 120px;
-}
-.reservation{
-  display: flex;
-}
-.reservation h2{
-  color: white;
-}
-.reservation h1{
-  color: orangered;
-}
-.logo-reserve{
-  background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(Images/reservation.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
-  width: 50%;
-  height: 100vh;
-  padding-top: 100px;
-  text-align: center;
-}
-.form{
-  background-color: black;
-  color: white;
-  width: 50%;
-  padding-left: 60px;
-  padding-top: 50px;
-}
-.form input{
-  background-color: black;
-  padding: 15px;
-  width: 80%;
-}
-.form button{
-  padding: 17px;
-  width: 85%;
-}
-.form label{
-  text-align: start;
-}
-.scroll-text{
-  display: flex;
-  color: white;
-  justify-content: center;
-}
-#icon{
-  width: 6%;
-  color: white;
-}
-.reviews{
-  background-color: black;
-  height: 100vh;
-}
-.reviews h1,.fa-quote-left{
-  margin-left: 420px;
-}
-.reviews img{
-  margin-left: 675px;
-  width: 13%;
-  margin-top: 40px;
-}
-.reviews h3,p{
-  text-align: center;
-  color: white;
-}
-.fa-quote-left{
-  color: orangered;
-}
-.fa-quote-right{
-  color: orangered;
-  float: right;
-  margin-right: 430px;
-}
-.reviews form input{
-  background-color: black;
-  width: 60%;
-  color: white;
-}
-.reviews form{
-  color: white;
-  text-align: center;
-}
-.reviews form button{
-  padding: 10px;
-  width: 10%;
-  border-radius: 40px;
 }
 #first-image{
   width: 100%;
@@ -370,7 +60,7 @@ height: 100vh;
 .navbar {
   display: flex;
   padding: 1px 0;
-  margin-left: 90px;
+  margin-left: 30px;
 }
 .navbar i{
   margin-top: 20px;
@@ -394,6 +84,9 @@ height: 100vh;
   font-size: 20px;
   font-weight: bold;
 }
+.navbar .fa-clock{
+  margin-top: 30px;
+}
 .navigation{
   padding: 10px;
   color: white;
@@ -407,27 +100,6 @@ height: 100vh;
 left: 350px;
 border: 3px white;
 }
-.kitisuru-menu .navigation{
-  left: 5px;
-  width: 45%;
-}
-.kitisuru-menu .navbar ul li a {
-  text-decoration: none;
-  color: white; 
-  font-size: 16px;
-  font-weight: bold;
-}
-.live-menu .navigation{
-  left: 5px;
-  width: 45%;
-  position: fixed;
-}
-.live-menu .navbar ul li a {
-  text-decoration: none;
-  color: white; 
-  font-size: 16px;
-  font-weight: bold;
-}
 #reservation{
   background-color: rgb(83, 81, 81);
   padding-top: 10px;
@@ -436,3 +108,119 @@ border: 3px white;
  .icon-text-image{
   display: flex;
  }
+ .navbar button{
+  background-color:none;
+  color: rgb(252, 251, 251);
+  border-radius: 40px;border: none;
+
+ }
+ .dropbtn {
+  background-color: #050505;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropup {
+  position: relative;
+  display: inline-block;
+}
+
+.dropup-content {
+  display: none;
+  position: absolute;
+  background-color: #0a0a0a;
+  min-width: 160px;
+  bottom: 50px;
+  z-index: 1;
+}
+
+.dropup-content a {
+  color: rgb(245, 240, 240);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropup-content a:hover {background-color: #ccc}
+
+.dropup:hover .dropup-content {
+  display: block;
+}
+
+.dropup:hover .dropbtn {
+  background-color: #585b5e;
+}
+
+
+
+ @media screen and (min-width:0) and (max-width: 600px){
+  .logo-homepage {
+    width: 40%;
+    overflow: visible;
+    position:absolute;
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+  .navbar {
+    display: flex;
+    padding: 1px 0;
+    margin-left: 1px;
+  }
+  .navbar i{
+    margin-top: 2px;
+    margin-left: 2px;
+  }
+  .navbar ul{
+    display: flex;
+  }
+  .navbar ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .navbar ul li {
+    margin: 0 3px;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: white; 
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .navigation{
+    padding: 1px;
+    color: white;
+    background-color: rgb(8, 8, 8);
+    border: 2px solid;
+    width: 90%;
+    border-radius: 40px;
+    overflow: visible;
+    position: absolute;
+    top: 760px;
+  left: 10px;
+  border: 3px white;
+  }
+  #reservation{
+    background-color:rgb(8, 8, 8) ;
+    padding-top: 1px;
+    padding-bottom: 1px;
+   border-radius: 40px;}
+
+   body{
+    margin: 0;
+   }
+  .navbar .fa-clock{
+    margin-top: 20px;
+  }
+  .text-caption{
+    color: rgb(94, 92, 92);
+    top: 400px;
+    left: 50px;
+    font-size: 70px;
+    position: absolute;
+    
+  } 
+}
