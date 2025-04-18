@@ -241,3 +241,6 @@ border: 3px white;
     padding-top: 13px;
  }
  }
+ @media screen and (min-width: 601px) and (max-width: 1124px) {
+  
+ }

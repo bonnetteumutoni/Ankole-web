@@ -231,3 +231,101 @@
     }
   
    }
+   @media screen and (min-width: 601px) and (max-width: 1124px) {
+    .navbar {
+      display: flex;
+      padding: 1px 0;
+      margin-left: 1px;
+    }
+    .navbar i{
+      margin-top: 2px;
+      margin-left: 2px;
+      padding: 0;
+    }
+    .navbar ul{
+      display: flex;
+    }
+    .navbar ul {
+      list-style-type: none;
+      display: flex;
+    }
+    
+    .navbar ul li {
+      margin: 0 3px;
+    }
+    
+    .navbar ul li a {
+      text-decoration: none;
+      color: white; 
+      font-size: 10px;
+      font-weight: bold;
+    }
+    .navigation{
+      padding: 1px;
+      color: white;
+      background-color: rgb(8, 8, 8);
+      border: 2px solid;
+      width: 100%;
+      border-radius: 40px;
+      overflow: visible;
+      position: absolute;
+      top: 160px;
+    left: 100px;
+    border: 3px white;
+    }
+    #reservation{
+      background-color:rgb(8, 8, 8) ;
+      padding-top: 1px;
+      padding-bottom: 1px;
+     border-radius: 40px;}
+  
+     body{
+      margin: 0;
+     }
+    .navbar .fa-clock{
+      margin-top: 1px;
+    }
+    .navigation{
+      position: absolute;
+    }
+    .menu-branches{
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    .menu-branches a{
+      text-decoration: none;
+      color: white;
+      font-size: 19px;
+    }
+    .menu-branches h1{
+      color: white;
+      font-size: 50px;
+    }
+    .menu-branches h3{
+      color: orangered;
+      font-size: 33px;
+    }
+    .firstbranch{
+      background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(Images/first-image.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 60vh;
+      position: relative;
+      width: 90%;
+      padding-left: 120px;
+      padding-top: 350px;
+    }
+    .secondbranch{
+      background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(Images/secondbranch.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 60vh;
+      position: relative;
+      width: 90%;
+      padding-left: 120px;
+      padding-top: 350px;
+    }
+   }

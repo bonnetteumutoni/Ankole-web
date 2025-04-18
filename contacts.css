@@ -129,5 +129,72 @@
    border-radius: 40px;
 }
 @media screen and (max-width: 600px){
+    .contact-details{
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        gap: 50px;
+        margin-top: 90px;
+        margin-left: 30px;
+      }
+      .navbar {
+        display: flex;
+        padding: 1px 0;
+        margin-left: 1px;
+      }
+      .navbar i{
+        margin-top: 2px;
+        margin-left: 2px;
+      }
+      .navbar ul{
+        display: flex;
+      }
+      .navbar ul {
+        list-style-type: none;
+        display: flex;
+      }
+      
+      .navbar ul li {
+        margin: 0 3px;
+      }
+      
+      .navbar ul li a {
+        text-decoration: none;
+        color: white; 
+        font-size: 10px;
+        font-weight: bold;
+      }
+      .navigation{
+        padding: 1px;
+        color: white;
+        background-color: rgb(8, 8, 8);
+        border: 2px solid;
+        width: 100%;
+        border-radius: 40px;
+        overflow: visible;
+        position: absolute;
+        top: 760px;
+      left: 10px;
+      border: 3px white;
+      }
+      #reservation{
+        background-color:rgb(8, 8, 8) ;
+        padding-top: 1px;
+        padding-bottom: 1px;
+       border-radius: 40px;}
     
+       body{
+        margin: 0;
+       }
+      .navbar .fa-clock{
+        margin-top: 2px;
+      }
+      .contacts img{
+        width: 20%;
+        margin-left: 170px;
+        margin-top: 30px;
+      }
+}
+@media screen and (min-width: 601px) and (max-width: 1124px) {
+  
 }
